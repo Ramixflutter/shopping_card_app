@@ -13,7 +13,7 @@ class ItemView extends StatelessWidget {
     required this.quantity,
   });
 
-  ItemsController controller = Get.find();
+  ItemsController controller = Get.find<ItemsController>();
 
   @override
   Widget build(BuildContext context) {
